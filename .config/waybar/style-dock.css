@@ -1,0 +1,26 @@
+#waybar {
+    background: rgb(30, 30, 46);
+    border-radius: 15px;
+    padding: 20px 40px;
+    transition: all 0.3s ease;
+}
+
+#custom-firefox,
+#custom-terminal,
+#custom-files,
+#custom-code,
+#custom-discord {
+    font-size: 22px;
+    padding: 6px 12px;
+    margin: 0 6px;
+    border-radius: 12px;
+    transition: background 0.2s ease;
+}
+
+#custom-firefox:hover,
+#custom-terminal:hover,
+#custom-files:hover,
+#custom-code:hover,
+#custom-discord:hover {
+    background: rgba(255, 255, 255, 0.15);
+}

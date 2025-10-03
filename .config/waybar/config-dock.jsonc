@@ -1,0 +1,45 @@
+{
+    // Общие настройки панели
+    "layer": "top",
+    "position": "bottom",
+    "margin-top": 0,
+    "margin-bottom": 10,
+    "margin-left": 600,
+    "margin-right": 600,
+    "modules-left": [
+        "custom/firefox",
+        "custom/terminal",
+        "custom/files",
+        "custom/code",
+        "custom/discord"
+    ],
+    "modules-center": [],
+    "modules-right": [],
+
+
+    "custom/firefox": {
+        "format": "󰈹",
+        "on-click": "firefox",
+        "tooltip": false
+    },
+    "custom/terminal": {
+        "format": "",
+        "on-click": "kitty",
+        "tooltip": false
+    },
+    "custom/files": {
+        "format": "",
+        "on-click": "dolphin",
+        "tooltip": false
+    },
+    "custom/code": {
+        "format": "",
+        "on-click": "vscodium",
+        "tooltip": false
+    },
+    "custom/discord": {
+        "format": "",           // Nerd Font Discord
+        "on-click": "vesktop discord",
+        "tooltip": false
+    }
+}
